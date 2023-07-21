@@ -62,3 +62,25 @@
     <li>B Tree & B+ Tree</li>
   </ul>
 </details>
+
+<details>
+  <summary><h3>2주차-1</h3></he></summary>
+  <ul>
+    <li>운영체제란?</li>
+    <li>프로세스와 스레드</li>
+    <li>프로세스 주소 공간</li>
+    <li>인터럽트 (Interrupt)</li>
+    <li>시스템 콜 (System Call)</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>2주차-2</h3></he></summary>
+  <ul>
+    <li>PCB와 Context Switching</li>
+    <li>IPC (Inter Process Communication)</li>
+    <li>CPU 스케줄링</li>
+    <li>데드락 (DeadLock)</li>
+    <li>경쟁상태 (Race Condition)</li>
+  </ul>
+</details>
