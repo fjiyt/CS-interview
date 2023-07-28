@@ -84,3 +84,25 @@
     <li>경쟁상태 (Race Condition)</li>
   </ul>
 </details>
+
+<details>
+  <summary><h3>3주차-1</h3></he></summary>
+  <ul>
+    <li>세마포어와 뮤텍스</li>
+    <li>페이징과 세그먼테이션</li>
+    <li>페이지 교체 알고리즘</li>
+    <li>메모리 (Memory)</li>
+    <li>파일 시스템 (File System)</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>3주차-2</h3></he></summary>
+  <ul>
+    <li>키 (Key)</li>
+    <li>조인 (Join)</li>
+    <li>SQL Injection</li>
+    <li>SQL vs NoSQL</li>
+    <li>이상 (Anomaly)</li>
+  </ul>
+</details>
