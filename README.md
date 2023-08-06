@@ -103,6 +103,29 @@
     <li>조인 (Join)</li>
     <li>SQL Injection</li>
     <li>SQL vs NoSQL</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>4주차-1</h3></he></summary>
+  <ul>
     <li>이상 (Anomaly)</li>
+    <li>인덱스 (Index)</li>
+    <li>정규화 (Normailization)</li>
+    <li>트랜잭션 (Transaction)</li>
+    <li>트랜잭션 격리 수준</li>
+    <li>레디스 (Redis)</li>
+    <li>저장 프로시저 (Stored PROCEDURE)</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>4주차-2</h3></he></summary>
+  <ul>
+    <li>OSI 7계층</li>
+    <li>TCP 3&4 way handshake</li>
+    <li>TCP/IP 흐름제어 & 혼합제어</li>
+    <li>UDP</li>
+    <li>대칭키 & 공개키</li>
   </ul>
 </details>
