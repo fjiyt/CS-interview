@@ -120,12 +120,23 @@
 </details>
 
 <details>
-  <summary><h3>4주차-2</h3></he></summary>
+  <summary><h3>5주차-1</h3></he></summary>
   <ul>
     <li>OSI 7계층</li>
     <li>TCP 3&4 way handshake</li>
     <li>TCP/IP 흐름제어 & 혼합제어</li>
     <li>UDP</li>
     <li>대칭키 & 공개키</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>5주차-2</h3></he></summary>
+  <ul>
+    <li>HTTP & HTTPS</li>
+    <li>TLS/SSL Handshake</li>
+    <li>로드밸런싱</li>
+    <li>Blocking/Non-blocking & Synchronous/Asynchronous</li>
+    <li>Blocking & Non-Blocking I/O</li>
   </ul>
 </details>
