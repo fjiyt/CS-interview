@@ -138,5 +138,6 @@
     <li>로드밸런싱</li>
     <li>Blocking/Non-blocking & Synchronous/Asynchronous</li>
     <li>Blocking & Non-Blocking I/O</li>
+    <li>DNS 동작방식</li>
   </ul>
 </details>
