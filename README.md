@@ -141,3 +141,21 @@
     <li>DNS 동작방식</li>
   </ul>
 </details>
+
+<details>
+  <summary><h3>6주차-1</h3></he></summary>
+  <ul>
+    <li>브라우저 동작 방법</li>
+    <li>쿠키 & 세션</li>
+    <li>HTTP Request Methods</li>
+    <li>HTTP status code</li>
+    <li>REST API</li>
+  </ul>
+</details>
+
+<details>
+  <summary><h3>6주차-2</h3></he></summary>
+  <ul>
+    <li>OS 질문하기</li>
+  </ul>
+</details>
