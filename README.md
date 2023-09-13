@@ -35,7 +35,7 @@
   </div>
 </details>
 
-# 주제
+## 📍주제
 ### Data Structure
 
 - [ ] Array 이론 & 구현
