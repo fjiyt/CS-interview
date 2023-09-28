@@ -138,7 +138,7 @@ private void printLevelOrder(Node node) {
 - 정렬 규칙 + 이진트리
 - 왼쪽 하위 트리 < 루트 , 루트 < 오른쪽 하위 트리
 
-![Untitled](Tree/Untitled.png)
+![Untitled](image/Untitled.png)
 
 - 일반적으로 이진탐색 트리는 중복 요소를 허용하지 않지만, 허용할 경우에는 어느 한쪽 또는 양쪽에 있을 수 있음
 - 중복 요소는 별도의 해시맵에 저장하거나 카운터를 통해 트리 구조에 직접 저장 가능
@@ -154,7 +154,7 @@ private void printLevelOrder(Node node) {
 
 </aside>
 
-![Untitled](Tree/Untitled%201.png)
+![Untitled](image/Untitled%201.png)
 
 ## 레드블랙트리
 
@@ -166,7 +166,7 @@ private void printLevelOrder(Node node) {
 - 빨간색 노드의 양쪽 자식 노드는 모두 검은색 (== 빨간 노드가 연속으로 나올 수 없다)
 - 한 노드에서 NIL 노드로의 모든 경로에는 동일한 수의 검은색(블랙) 노드가 있습니다.
 
-![Untitled](Tree/Untitled%202.png)
+![Untitled](image/Untitled%202.png)
 
 ## AVL 트리
 
@@ -180,7 +180,7 @@ private void printLevelOrder(Node node) {
 
   BN = h(left_subtree(n) - right_subtree(n))
 
-![Untitled](Tree/Untitled%203.png)
+![Untitled](image/Untitled%203.png)
 
 ### 시간복잡도
 
@@ -192,19 +192,19 @@ private void printLevelOrder(Node node) {
 - 부모, 왼쪽자식, 오른쪽 자식 순으로 채워지는 트리
 - 완전 이진 트리의 높이는 항상 O(logn)
 
-![Untitled](Tree/Untitled%204.png)
+![Untitled](image/Untitled%204.png)
 
 # 정이진트리 (Full Binary Tree)
 
 - 모든 노드에 2개의 자식이 있거나 아예 없는 이진트리
 
-![Untitled](Tree/Untitled%205.png)
+![Untitled](image/Untitled%205.png)
 
 # 포화이진트리 (Perfect Binary Tree)
 
 - 정이진트리 + 완전이진트리
 
-![Untitled](Tree/Untitled%206.png)
+![Untitled](image/Untitled%206.png)
 
 # 힙
 
@@ -217,14 +217,14 @@ private void printLevelOrder(Node node) {
 - 부모 키값 > 자식 노드 키값
 - 가장 큰 값이 루트노드에 있음
 
-![Untitled](Tree/Untitled%207.png)
+![Untitled](image/Untitled%207.png)
 
 ## 최소힙
 
 - 부모 키값 < 자식노드 키값
 - 가장 작은 값이 루트노드에 있음
 
-![Untitled](Tree/Untitled%208.png)
+![Untitled](image/Untitled%208.png)
 
 ## 힙 표현
 
@@ -249,4 +249,4 @@ private void printLevelOrder(Node node) {
 2. 만약 자식 노드 값이 크다면 왼쪽 오른쪽 자식 중 가장 큰 값으로 교환합니다.
 3. 힙 속성이 유지 될 때까지 1,2번 과정을 반복합니다.
 
-![Untitled](Tree/Untitled%209.png)
+![Untitled](image/Untitled%209.png)
