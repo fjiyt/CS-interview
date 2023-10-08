@@ -1,6 +1,6 @@
 ## 가상 메모리
 
-![Virtual Memory](Memory/image/10-01-1.png)
+![Virtual Memory](image/10-01-1.png)
 
 - 프로그램이 물리 메모리 크기에 의해 제약 받지 않도록 하기 위해, 프로세스 전체가 메모리에 올라오지 않더라도 실행이 가능하도록 하는 기법
 - CPU가 프로세스를 실행하다 어떠한 페이지를 읽어와야 할 경우
@@ -18,7 +18,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
 
 ## 그런데… 정말로 Paging System에서 LRU와 LFU를 사용할 수 있을까?
 
-![Virtual Memory Area](Memory/image/10-01-2.png)
+![Virtual Memory Area](image/10-01-2.png)
 
 - **주소 변환을 했을 때 해당하는 페이지가 이미 물리 메모리에 올라와 있다면?**
     - 물리 메모리에서 직접 내용을 읽어 CPU로 가져감
@@ -35,7 +35,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
         - Page Fault를 통해 CPU 제어권이 운영체제에게 넘어가야만, 페이지 접근 시간을 알 수 있다
     
 
-![Linked list and Heap](Memory/image/10-01-3.png)
+![Linked list and Heap](image/10-01-3.png)
 
 - Page Fault가 난 상황에서는 운영 체제가 이런식으로 데이터를 조작해줌으로써 페이지 참조 상황을 업데이트할 수 있음
 - 그렇지만 Page Fault가 나지 않는다면 CPU가 운영체제에게 넘어오지 않기 때문에 데이터를 변경할 수 없다
@@ -48,7 +48,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
 - LRU의 근사 알고리즘
 - Second Chance Algorithm, NUR(Not Used Recently), NRU(Not Recently Used)라고도 불림
 
-![Clock Algorithm](Memory/image/10-01-4.png)
+![Clock Algorithm](image/10-01-4.png)
 
 - **주소 변환을 했을 때 해당하는 페이지가 이미 물리 메모리에 올라와 있다면?**
     - 하드웨어가 해당 페이지에 접근을 할 때 마다, 페이지에 대한 Reference bit를 1로 세팅해줌으로써 참조되었다는 것을 표시
@@ -76,7 +76,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
 - 프로그램에 메모리가 적게 할당 되어, Page Fault가 빈번하게 일어나는 현상
 - 각 프로그램에게 할당된 메모리가 적다 → 메모리에 올라와있는 프로그램의 수가 많다
 
-![Thrashing](Memory/image/10-01-5.png)
+![Thrashing](image/10-01-5.png)
 
 - 프로그램이 처음에 하나만 실행된다면
     - CPU 이용률이 낮음 → 해당 프로그램이 I/O 작업을 하러 가면 CPU가 하는 작업이 없기 때문
@@ -102,7 +102,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
 - **Working Set의 사이즈는 어떻게 알 수 있을까?**
     - 과거를 통해 Working Set을 추정
         
-        ![Working Set](Memory/image/10-01-6.png)
+        ![Working Set](image/10-01-6.png)
         
     - 만약 window size가 10일 경우, 현재 시점부터 과거 10번째 참조된 페이지 까지는 프로그램의 Working Set이기 때문에 메모리에 올려놓아야 한다.
     - 그렇기 때문에 Working Set의 크기는 계속해서 변경됨
@@ -113,7 +113,7 @@ Optimal, FIFO, LRU(Least Recently Used), LFU(Least Frequently Used), …
 - 이 방식 또한 Multiprogramming degree를 조절하면서 Thrashing을 방지한다
 - 현재 시점의 Page Fault, 각 프로그램의 Page Fault 수를 보면서 프로그램 당 페이지 수를 조절
     
-    ![Page Fault Frequency](Memory/image/10-01-7.png)
+    ![Page Fault Frequency](image/10-01-7.png)
     
 - 일반적으로 프로그램에 할당되는 메모리가 커질수록 Page Fault 또한 줄어듦
 - 각 프로그램마다 이러한 곡선의 가파른 정도가 다를 것
